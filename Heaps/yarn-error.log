@@ -1,0 +1,36 @@
+Arguments: 
+  /snap/node/5768/bin/node /snap/node/5768/bin/yarn.js global dir
+
+PATH: 
+  /usr/local/cuda-10.0/bin:/home/titico03/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.22.9
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, write
+      at writeSync (fs.js:679:3)
+      at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+      at doWrite (_stream_writable.js:403:12)
+      at writeOrBuffer (_stream_writable.js:387:5)
+      at SyncWriteStream.Writable.write (_stream_writable.js:318:11)
+      at ConsoleReporter._log (/snap/node/5768/lib/cli.js:96904:17)
+      at ConsoleReporter.log (/snap/node/5768/lib/cli.js:96892:10)
+      at dir (/snap/node/5768/lib/cli.js:36299:14)
+      at Object.<anonymous> (/snap/node/5768/lib/cli.js:25983:25)
+      at Generator.next (<anonymous>)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
